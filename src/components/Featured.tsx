@@ -9,13 +9,30 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+          Более 10 лет опыта, собственная бригада мастеров и полный контроль качества на каждом этапе — от проекта до сдачи объекта.
         </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div>
+            <div className="text-3xl font-bold text-neutral-900">200+</div>
+            <div className="text-sm text-neutral-500 uppercase tracking-wide">Сданных объектов</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold text-neutral-900">10 лет</div>
+            <div className="text-sm text-neutral-500 uppercase tracking-wide">На рынке</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold text-neutral-900">3 года</div>
+            <div className="text-sm text-neutral-500 uppercase tracking-wide">Гарантия на работы</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold text-neutral-900">100%</div>
+            <div className="text-sm text-neutral-500 uppercase tracking-wide">Соблюдение сроков</div>
+          </div>
+        </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+          Наши работы
         </button>
       </div>
     </div>
